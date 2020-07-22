@@ -1,0 +1,84 @@
+.movie {
+    width: 240px;
+    height: 500px;
+    /* background-color: #000; */
+    /* border-style: solid;
+    border-color: #fff; */
+}
+
+.poster__shadow {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    top: -36px;
+    background: linear-gradient( to bottom, transparent, #131313 );
+    /* box-shadow: inset 0px 0px 100px rgba(19,19,19,1); */
+}
+
+.movie img {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    z-index: -1;
+}
+
+.movie__order {
+    padding: 5px 0 0 0px;
+    position: relative;
+    width: 36px;
+    height: 36px;
+    background-color: red;
+
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+}
+
+.movie__data {
+    position: relative;
+    z-index: 2;
+    top: -100px;
+    padding-right: 60px;
+}
+
+.movie__desc {
+    border-left: 3px solid #292D34;
+    padding-left: 12px;
+}
+
+.movie__title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+.movie__genres {
+    list-style: none;
+    display: flex;
+    padding: 0;
+
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.movie__year {
+    font-size: 14px;
+    font-weight: 500;
+    color: #828282;
+    margin-bottom: 8px;
+}
+
+.genres__genre {
+    color: #828282;
+    margin-right: 8px;
+}
+
+.movie__summary {
+    margin: 0px;
+    font-size: 13px;
+    color: #828282;
+    line-height: 18px;
+    font-weight: 400;
+}
