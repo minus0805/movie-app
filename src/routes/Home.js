@@ -4,11 +4,16 @@
 //setState를 사용해야 state 리프레시 + render메소드가 호출됨
 //setState안에서 state를 사용하지 말자. current를 파라미터로 함수 사용하기
 // this.setState({count: this.state.count - 1}) X
-///this.setState(current => ({count: current.count + 1}) O
+//this.setState(current => ({count: current.count + 1}) O
+//render 다음에 componentDidMount 실행
+//1. state, context, defaultProps 저장
+//2. componentWillMount
+//3. render
+//4. componentDidMount
 
 import React from 'react';
 import axios from "axios";
-import Movie from "../components./Movie";
+import Movie from "../components/Movie";
 import "./Home.css"
 
 class Home extends React.Component {
@@ -58,4 +63,4 @@ class Home extends React.Component {
     }
 }
 
-export default App;
+export default Home;

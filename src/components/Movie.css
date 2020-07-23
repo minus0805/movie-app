@@ -25,12 +25,15 @@
 .movie__order {
     padding: 5px 0 0 0px;
     position: relative;
+    top: -10px;
+    left: -7px;
     width: 36px;
-    height: 36px;
+    height: 38px;
     background-color: red;
 
     font-size: 20px;
     font-weight: 400;
+    color: white;
     font-style: italic;
     text-align: center;
 }
@@ -51,6 +54,7 @@
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 14px;
+    color: #fff;
 }
 
 .movie__genres {
@@ -81,4 +85,8 @@
     color: #828282;
     line-height: 18px;
     font-weight: 400;
+}
+
+a {
+    text-decoration: none;
 }

@@ -1,7 +1,8 @@
 import React from "react";
+import "./About.css";
 
 function About() {
-    return <span>About</span>;
+    return <div className="about__text">About this page: I built it because I love movies.</div>;
 }
 
 export default About;

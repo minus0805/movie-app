@@ -10,9 +10,17 @@ body {
   height: 100%;
 }
 
+
 .container {
     display: flex;
     justify-content: center;
+}
+
+.loader {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 300px;
 }
 
 .movies {
@@ -20,5 +28,5 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
     color: #fff;
-    margin: 50px 0px 40px 20px;
+    margin: 150px 0px 40px 20px;
 }
